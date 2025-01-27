@@ -4,5 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
+async-recursion = "1.1.1"
+clap = { version = "4.5.27", features = ["derive"] }
 image = "0.25.5"
+indicatif = "0.17.9"
 jpegli = "0.1.0"
+nd-jpegli = { git = "https://github.com/nathaniel-daniel/nd-jpegli-rs", version = "0.0.0" }
+png = "0.17.16"
+rayon = "1.10.0"
